@@ -9,7 +9,7 @@ services:
       container_name: tastyigniter-mysql
       working_dir: /application
       volumes:
-        - dbdata:/var/lib/mysql
+        - ./dbdata:/var/lib/mysql
         - .:/application
       environment:
         - MYSQL_ROOT_PASSWORD=root
