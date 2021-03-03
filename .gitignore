@@ -8,3 +8,6 @@
 /vendor
 composer.lock
 node_modules
+
+# Put File Database no gitignore, create a database.example
+/config/database.php
